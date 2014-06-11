@@ -243,7 +243,7 @@ fn(1,2,3)
 
 ### variadic, part ii
 
-When given just the function, `variadic` returns a function with an arity of zero. This is consistent with JavaScript programming practice. There are times when you wish to report an arity, meaning that you want the returned function to have its `length` getibute set.
+When given just the function, `variadic` returns a function with an arity of zero. This is consistent with JavaScript programming practice. There are times when you wish to report an arity, meaning that you want the returned function to have its `length` attribute set.
 
 You do this by prefacing the function argument with a length:
 
